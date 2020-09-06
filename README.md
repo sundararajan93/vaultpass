@@ -1,11 +1,19 @@
 # vaultpass
 Vaultpass is a simple command line utility to vault your password and store it as encrypted text and retrieve when you needed.
 
-We might face this similar scenario, where you need to store FTP/DB Server password.
+Storing the password in plain-text file is terrible practice. We might face this similar scenario, when we need to store FTP/DB Server password.
 Instead of storing the Plain-Text password to a file, we can encrypt the password and store it safely.
 When the password is required, we could decrypt the password from the same utility.
 
 ### Setup
+```
+$git clone https://github.com/sundararajan93/vaultpass.git 
+$cd vaultpass
+$chmod +x vaultpass.py
+```
+##### prerequisite:
+1. python3
+2. cryptograpy module
 
 
 ### Help command
