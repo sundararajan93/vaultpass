@@ -60,5 +60,5 @@ When you require the password you can decrypt using -d, --de_crypt
 $./vaultpass.py -d
 p@$$w0rD
 ```
-This same retrieval steps can be added to your own script as per the requirement.
+This same retrieval step can be added to your own script as per the requirement.
 
