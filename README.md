@@ -5,16 +5,18 @@ Storing the password in plain-text file is terrible practice. We might face this
 Instead of storing the Plain-Text password to a file, we can encrypt the password and store it safely.
 When the password is required, we could decrypt the password from the same utility.
 
+### prerequisite:
+1. python3
+2. cryptograpy module
+`$sudo pip3 install cryptography`
+
 ### Setup
+Setting up the tool is very simple, just clone the repo and make the script file executable.
 ```
 $git clone https://github.com/sundararajan93/vaultpass.git 
 $cd vaultpass
 $chmod +x vaultpass.py
 ```
-##### prerequisite:
-1. python3
-2. cryptograpy module
-
 
 ### Help command
 Make use of the help (-h, --help) tags to view the available options
