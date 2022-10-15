@@ -1,4 +1,4 @@
-#!/usr/bin/python3.6
+#!/usr/bin/python3
 import argparse
 from cryptography.fernet import Fernet
 
@@ -76,4 +76,3 @@ def Main():
 
 if __name__ == "__main__":
     Main()
-
